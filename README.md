@@ -578,7 +578,7 @@ We welcome contributions from the community! Here's how to get involved:
 
 MIT License
 
-Copyright (c) 2024 Youssef BEN LETAIFA
+Copyright (c) 2026 Youssef BEN LETAIFA
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
