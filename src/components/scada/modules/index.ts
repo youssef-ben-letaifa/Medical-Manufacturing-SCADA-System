@@ -1,0 +1,9 @@
+export { ProductionModule } from "./ProductionModule";
+export { EquipmentModule } from "./EquipmentModule";
+export { AlarmsModule } from "./AlarmsModule";
+export { TrendsModule } from "./TrendsModule";
+export { BatchModule } from "./BatchModule";
+export { EnvironmentalModule } from "./EnvironmentalModule";
+export { UtilitiesModule } from "./UtilitiesModule";
+export { ReportsModule } from "./ReportsModule";
+export { OverviewModule } from "./OverviewModule";
