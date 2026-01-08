@@ -152,6 +152,25 @@ A comprehensive SCADA system designed specifically for medical device manufactur
 
 ---
 
+## 📸 Interface Preview
+
+<div align="center">
+  <table style="width:100%">
+    <tr>
+      <td width="50%"><img src="1.png" alt="Dashboard Overview"/><br/><b>Dashboard Overview</b></td>
+      <td width="50%"><img src="2.png" alt="Real-time Monitoring"/><br/><b>Real-time Monitoring</b></td>
+    </tr>
+    <tr>
+      <td width="50%"><img src="3.png" alt="Alarm Management"/><br/><b>Alarm Management</b></td>
+      <td width="50%"><img src="4.png" alt="Trend Analysis"/><br/><b>Trend Analysis</b></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
