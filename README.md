@@ -376,39 +376,39 @@ medical-scada/
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                   Operator Interface (React)                 │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │  Dashboard   │  │    Alarms    │  │    Batch     │      │
-│  │   Screens    │  │  Management  │  │   Control    │      │
-│  └──────────────┘  └──────────────┘  └──────────────┘      │
+│                   Operator Interface (React)                │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐       │
+│  │  Dashboard   │  │    Alarms    │  │    Batch     │       │
+│  │   Screens    │  │  Management  │  │   Control    │       │
+│  └──────────────┘  └──────────────┘  └──────────────┘       │
 └───────────────────────┬─────────────────────────────────────┘
                         │
 ┌───────────────────────▼─────────────────────────────────────┐
-│              Application State Layer (Hooks)                 │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
-│  │  Alarms  │  │ Batches  │  │Equipment │  │  Trends  │   │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘   │
+│              Application State Layer (Hooks)                │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐     │
+│  │  Alarms  │  │ Batches  │  │Equipment │  │  Trends  │     │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘     │
 └───────────────────────┬─────────────────────────────────────┘
                         │
 ┌───────────────────────▼─────────────────────────────────────┐
-│                 Business Logic (Services)                    │
-│  • Data Validation         • State Updates                   │
-│  • API Communication       • Event Handling                  │
+│                 Business Logic (Services)                   │
+│  • Data Validation         • State Updates                  │
+│  • API Communication       • Event Handling                 │
 └───────────────────────┬─────────────────────────────────────┘
                         │
 ┌───────────────────────▼─────────────────────────────────────┐
-│              Tauri IPC Bridge (Rust Backend)                 │
-│  • Secure Communication     • System Access                  │
-│  • File Operations          • Hardware Integration           │
+│              Tauri IPC Bridge (Rust Backend)                │
+│  • Secure Communication     • System Access                 │
+│  • File Operations          • Hardware Integration          │
 └───────────────────────┬─────────────────────────────────────┘
                         │
 ┌───────────────────────▼─────────────────────────────────────┐
-│                    External Systems                          │
-│  ┌───────────┐  ┌───────────┐  ┌───────────┐              │
-│  │    PLC    │  │    MES    │  │  Database │              │
-│  │  Systems  │  │  System   │  │  Server   │              │
-│  └───────────┘  └───────────┘  └───────────┘              │
-└──────────────────────────────────────────────────────────────┘
+│                    External Systems                         │
+│  ┌───────────┐  ┌───────────┐  ┌───────────┐                │
+│  │    PLC    │  │    MES    │  │  Database │                │
+│  │  Systems  │  │  System   │  │  Server   │                │
+│  └───────────┘  └───────────┘  └───────────┘                │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ### Key Design Principles
