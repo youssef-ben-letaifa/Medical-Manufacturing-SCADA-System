@@ -4,6 +4,23 @@
 
 ### Enterprise Supervisory Control & Data Acquisition for Medical Device Manufacturing
 
+## 🎥 Demo Video
+
+<div align="center">
+
+### Watch the Medical SCADA System in Action
+
+[![Medical SCADA Demo](https://img.youtube.com/vi/n_ANBON55KA/maxresdefault.jpg)](https://youtu.be/n_ANBON55KA)
+
+**[▶️ Watch Full Demo on YouTube](https://youtu.be/n_ANBON55KA)**
+
+*See real-time monitoring, alarm management, batch control, and trend analysis in action*
+
+</div>
+
+---
+
+
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
